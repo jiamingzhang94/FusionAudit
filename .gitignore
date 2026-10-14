@@ -1,0 +1,13 @@
+# Files written by the steps in README.md
+data/manifest.json
+data/images/
+data/typo_evid/
+data/nat_evid/images/
+runs/
+results/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/

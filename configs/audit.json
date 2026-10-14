@@ -1,0 +1,15 @@
+{
+  "dataset_seed": 42,
+  "samples_per_dataset": 500,
+  "eps": 0.03137254901960784,
+  "alpha": 0.00392156862745098,
+  "steps": 40,
+  "pgd_seed": 1,
+  "max_new_tokens": 256,
+  "do_sample": false,
+  "oom_resize_scales": [
+    1.0,
+    0.75,
+    0.5
+  ]
+}
