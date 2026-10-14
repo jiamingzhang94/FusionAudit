@@ -82,7 +82,7 @@ def _grouped_selection(group_keys: list[Any], n: int, rng: random.Random) -> lis
 
 
 def build_eval_set(seed: int = SEED, per_dataset: int = PER_DATASET) -> list[EvalSample]:
-    """Rebuild the evaluation set; the defaults give the 1500 examples of the paper."""
+    """Rebuild the evaluation set; the defaults give the 1500 examples in data/index.json."""
     rng = random.Random(seed)
     samples: list[EvalSample] = []
 

@@ -1,7 +1,6 @@
 # Environments
 
-All environments use Python 3.11. The experiments of the paper ran on NVIDIA A100
-80 GB GPUs.
+All environments use Python 3.11 and were tested on NVIDIA A100 80 GB GPUs.
 
 | Environment | Install | Used for |
 | --- | --- | --- |
@@ -17,7 +16,7 @@ versions of `transformers`.
 ## Main
 
 `.[main]` installs torch 2.10.0, torchvision 0.25.0, transformers 5.5.3 and
-accelerate 1.13.0. The paper used the CUDA 12.8 wheels.
+accelerate 1.13.0, tested with the CUDA 12.8 wheels.
 
 ## Legacy
 

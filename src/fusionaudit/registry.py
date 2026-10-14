@@ -13,7 +13,7 @@ class ModelSpec:
     revision: str | None = None  # pinned Hugging Face commit
 
 
-# Table 1 order.
+# Ordered by level.
 MODELS: tuple[ModelSpec, ...] = (
     ModelSpec("HuggingFaceTB/SmolVLM2-2.2B-Instruct", "SmolVLM2-2.2B", 1,
               revision="482adb537c021c86670beed01cd58990d01e72e4"),

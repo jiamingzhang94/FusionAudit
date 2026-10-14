@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compute the main audit table (Table 1) from per-sample model outputs.
+"""Compute the audit table from per-sample model outputs.
 
     python scripts/summarize.py --manifest data/manifest.json --records data/records --out results
 
